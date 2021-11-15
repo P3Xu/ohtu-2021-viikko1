@@ -31,6 +31,10 @@ class Varasto:
             kaikki_mita_voidaan = self.saldo
             self.saldo = 0.0
 
+            if 1+1==2:
+                for i in 10:
+                    hehe = 0
+
             return kaikki_mita_voidaan
 
         self.saldo = self.saldo - maara
